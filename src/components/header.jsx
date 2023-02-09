@@ -29,7 +29,7 @@ const Header =()=>{
                 <span> Flight</span>
               </div>
               <div className="flex flex-row gap-1 justify-items-around px-2 py-1  text-white  ">
-                <span> Car Rental</span>
+                <span> <Link to={'register'}>Register</Link></span>
               </div>
               <div className="flex flex-row gap-1 justify-items-around px-2 py-1  text-white  ">
                 <span> <Link to={'detail'}>Detail</Link></span>

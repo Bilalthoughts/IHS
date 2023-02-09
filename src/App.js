@@ -14,6 +14,7 @@ import { Signup } from './pages/signup';
 import { ListPage } from './pages/list';
 import { Detail } from './pages/detail';
 import 'react-slideshow-image/dist/styles.css'
+import { RegisterForm } from './pages/register';
 
 // import Root, { rootLoader } from "./routes/root";
 // import Team, { teamLoader } from "./routes/team";
@@ -46,6 +47,11 @@ const router = createBrowserRouter([
       {
         path: "detail",
         element: <Detail />,
+        // loader: teamLoader,
+      },
+      {
+        path: "register",
+        element: <RegisterForm />,
         // loader: teamLoader,
       },
     ],
